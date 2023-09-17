@@ -5,5 +5,11 @@ function openDc()
 
 function openTalentCreation()
 {
-    window.open("https://roktalents.com", "_blank");
+    window.open("https://link-target.net/449972/rok-talents", "_blank");
 }
+
+function openCalculator()
+{
+    window.open("https://link-center.net/449972/rok-calculator", "_blank");
+}
+
