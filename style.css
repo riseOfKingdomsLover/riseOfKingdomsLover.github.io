@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #FFFFFF;
+    /* white */
+    --text-color: #222222;
+    /* charcoal */
+    --accent-color: #0072C6;
+    /* ocean */
+    --accent-color-alt: #FFA500;
+    /* sun */
+    --border-color: #F8F8F8;
+    /* cloud */
+}
+
+header{
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar a,
+#roku {
+    color: var(--text-color);
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.nav-link {
+    text-decoration: none;
+}
+
+#posHeader {
+    margin-top: 100px; /* Adjust this value to match your header's height */
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.container{
+    display: flex;	
+    flex-direction: row;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
